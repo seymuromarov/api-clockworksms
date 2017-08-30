@@ -49,6 +49,12 @@ or you can use
 ```
 \Seymur\Clockworksms\Facades\Clockworksms::send($apiKey,$number,$message);
 ```
+
+for sending bulk message use array
+```
+    Clockworksms::send($apiKey,[441234567890,994515553344,441234567891],$message);
+```
+
 for checking balance use:
 ```
     Clockworksms::balance($apiKey);

@@ -8,7 +8,12 @@ class Clockworksms
 {
     public function send($key, $mobile, $content)
     {
+        if (is_array($mobile)) {
+            $mobile = implode(',', $mobile);
+        }
+
         $url = "http://api.clockworksms.com/http/send.aspx?key=" . $key . "&to=" . $mobile . "&content=" . $content;
+
         $client = new Client();
 
         $request = new \GuzzleHttp\Psr7\Request('GET', $url);
