@@ -2,8 +2,7 @@
 
 ## About Project
 
-Laravel api for getting Currency rates of Central Bank of Azerbaijan
-You can get all currency information or search by Currency Code and get One
+Laravel api for sending messages and checking balance with ClockWorkSms 
 
 ## Requirements
 
