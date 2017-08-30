@@ -1,0 +1,22 @@
+{
+  "name": "seymur/clockworksms",
+  "description": "Laravel api for clockworksms",
+  "type": "laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Seymur Omarov",
+      "email": "omarov.seymur@outlook.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seymur\\Clockworksms\\": "src/"
+    }
+  }
+}
